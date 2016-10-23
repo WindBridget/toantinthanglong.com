@@ -1,0 +1,1 @@
+<?php$sonewshome = 4;$sonews = 10;$soslides = 10;$sogroupnews = 100;	?>

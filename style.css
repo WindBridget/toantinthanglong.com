@@ -1,0 +1,97 @@
+html{
+	background: url('images/bg.jpg') repeat 0 0;
+	min-width:960px;
+	
+	overflow-y:scroll !important
+}
+.content{
+	width: 610px;
+}
+.tdleft-right{
+	width: 300px;
+	color: blue; 
+	font-weight: bold;	
+	background: #dae5ab;
+}
+.menu a:hover{
+	color: #FFF;
+}
+.tdmain{	
+	background: #dae5ab;
+}
+.footer{
+	color: red; 
+	font-weight: bold;
+	background: url('images/footerbg.jpg') repeat 0 0;
+}
+a{
+	text-decoration: none;	
+	color: #404040;
+}
+a:hover{
+	color: #ED055A;
+}
+
+#content{
+width:656px;
+height:auto;
+float:left;
+margin:0 auto;
+
+
+border:border: 1px #545d2e solid;
+}
+#gt_ct{
+width:654px;
+height:30px;
+background: #6e7846;
+margin:3px;
+}
+#top_ct{
+width:654px;
+height:400px;
+margin:10px;
+}
+#photo_ct{
+width:300px;
+height:390px;
+float:left;
+padding:5px;
+border:1px #545d2e solid;
+}
+#title_ct{
+width:330px;
+height:395px;
+float:right;
+padding: 10px 0px 10px 10px;
+
+
+}
+#title_ct1{
+height:185px;
+border: 0;
+font-size:20px;
+padding: 5px 0px 0px 5px;
+color: #ff6b09;
+}
+#title_ct2{
+height:200px;
+font-size:16px;
+color: #afa9c1;
+padding: 5px 0px 0px 5px;
+}
+#bot_ct{
+width:610px;
+padding: 25px;
+font-size:18px;
+color: #348387;
+border: 0;
+}
+
+/* Easy CSS Tooltip - by Koller Juergen [www.kollermedia.at] */
+
+* {font-family:Comic Sans MS; font-size:14px; }
+
+a.tooltip span {display:none; padding:2px 3px; margin-left:8px; width:130px;}
+
+a.tooltip:hover span{display:inline; position:absolute; border:1px solid #cccccc; background:#000; color:#FFF;}

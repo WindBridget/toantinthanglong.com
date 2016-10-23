@@ -1,0 +1,1 @@
+function validate_cf_pass(form) { var e = form.elements; 	if(e['pass'].value != e['cf-pass'].value) { 		alert('Mời nhập lại chính xác password và xác nhận!'); 		return false; 	} return true; }
